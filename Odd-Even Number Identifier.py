@@ -2,6 +2,7 @@ import random
 from colorama import Fore
 from colorama import init
 
+# initialize colorama to work
 init()
 
 print ("                        ")
@@ -9,6 +10,7 @@ print (Fore.RED + "Welcome to odd-even number identifier !      ~Anonymous")
 print (Fore.CYAN + "-------------------------------------------------------")
 print ("                        ")
 
+# system generated value (Secure)
 secure_random = random.SystemRandom()
 
 even_replies = ["Even Number", "It's an even number !", "Yaay ! An even number"]
@@ -22,7 +24,7 @@ while True:
             Fore.MAGENTA
             number = float(input("Enter A Number : "))
 
-            if number % 2 == 0:
+            if number % 2 == 0: # criteria for even numbers
                 print(Fore.BLUE + secure_random.choice(even_replies))
                 print("                        ")
             else:
@@ -31,7 +33,7 @@ while True:
 
         odd_or_even()
 
-    except ValueError:
+    except ValueError: # null or incorrect input
 
         print ("Oops! An error occured... Please try again...")
         print ("                        ")
