@@ -13,6 +13,7 @@ print ("                        ")
 # system generated value (Secure)
 secure_random = random.SystemRandom()
 
+# printing new replies with every new output
 even_replies = ["Even Number", "It's an even number !", "Yaay ! An even number"]
 odd_replies = ["Odd Number", "It's an odd number !", "Yaay ! An odd number"]
 
