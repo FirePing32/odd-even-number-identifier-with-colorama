@@ -4,6 +4,9 @@ Identify odd and even numbers with colored output in the terminal. <br>
 ## Requirements
 +   ``pip install colorama``
 
+## Usage
++   Launch ``Odd-Even Number Identifier.py`` and follow the on-screen instructions.
+
 ## Note
 +   The default color for ``even`` numbers is _Blue_.
 +   The default color for ``odd`` numbers is _Green_.
